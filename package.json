@@ -1,0 +1,44 @@
+{
+  "name": "xml-extractor",
+  "version": "0.1.0",
+  "description": "Extract data from XML streams in pure JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdesboeufs/xml-extractor.git"
+  },
+  "keywords": [
+    "XML",
+    "stream",
+    "streams",
+    "data",
+    "extract",
+    "data-binding",
+    "browser",
+    "server"
+  ],
+  "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdesboeufs/xml-extractor/issues"
+  },
+  "homepage": "https://github.com/jdesboeufs/xml-extractor#readme",
+  "dependencies": {
+    "htmlparser2": "^3.8.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21"
+  },
+  "scripts": {
+    "compile": "babel src -d lib",
+    "prepublish": "npm run compile"
+  },
+  "files": [
+    "lib",
+    "LICENCE",
+    "README.md"
+  ]
+}
